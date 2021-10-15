@@ -16,7 +16,7 @@ export default function Main() {
     };
 
     const getData = () => {
-        axios.get("http://node-mongodb-sample-git-rnarveka.apps.cloudapps.unc.edu/resumes").then(res => {
+        axios.get("https://node-mongodb-sample-git-rnarveka.apps.cloudapps.unc.edu/resumes").then(res => {
             console.log(res.data)
         })
     }
